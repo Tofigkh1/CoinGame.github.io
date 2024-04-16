@@ -27,7 +27,7 @@ function Coins() {
             const randomIndex = Math.floor(Math.random() * images.length);
             setCoin(images[randomIndex]);
             setIsRunning(false);
-            updatePoints(images[randomIndex]); // Son resme göre puanları güncelle
+            updatePoints(images[randomIndex]);
         }, 4000);
 
         const audio = new Audio(coinSound);
